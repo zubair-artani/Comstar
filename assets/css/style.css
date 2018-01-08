@@ -1,0 +1,276 @@
+@font-face {
+	src:url(../fonts/OpenSans-Regular.ttf);
+	font-family:open-sans;
+}
+@font-face {
+	src:url(../fonts/OpenSans-Bold.ttf);
+	font-family:open-bold;
+}
+@font-face {
+	src:url(../fonts/OpenSans-Light.ttf);
+	font-family:open-light;
+}
+@font-face {
+	src:url(../fonts/Roboto-Regular.ttf);
+	font-family:roboto;
+}
+@font-face {
+	src:url(../fonts/Roboto-bold.ttf);
+	font-family:roboto-bold;
+}
+@font-face {
+	src:url(../fonts/Roboto-light.ttf);
+	font-family:roboto-light;
+}
+/*-----------------------font-family------------------*/
+.container {
+	width:1190px;
+	margin:0 auto;
+}
+a {
+	text-decoration:none;
+}
+header {
+	width:100%;
+	background-color:white;
+	height:90px;
+	line-height:90px;
+	position:fixed;
+	opacity:0.3;
+}
+header.sticky{
+	background-color:red;
+}
+.logo img{
+	float:left;
+	padding-top: 20px;
+}
+.nav {
+	font-family:open-sans;
+	float:right;
+}
+.nav ul li {
+	display:inline;
+}
+.nav ul li a {
+	margin-right:40px;
+	text-transform:uppercase;
+}
+.slider {
+	text-align:center;
+	background-image:url(../img/com-slider.jpg);
+	width:100%;
+	background-size:cover;
+}
+.slider h1 {
+	padding-top:340px;
+	color:white;
+	padding-bottom:25px;
+	font-size:70px;
+}
+.slider p {
+	font-family:open-bold;
+	color:white;
+	padding-bottom:370px;
+}
+.comstar {
+	text-align:center;
+	background-color:#2e2e2e;
+}
+.comstar img{
+	padding:20px;
+}
+.design-inner h1{
+	margin-top:50px;
+	text-align:center;
+	font-size:50px;
+	margin-bottom:30px;
+	font-family:open-light;
+	color:#000000;
+}
+.design-inner p {
+	margin-bottom:50px;
+	font-family:open-sans;
+	text-align:center;
+	color:#acacac;
+}
+.one-forth {
+	width:280px;
+	float:left;
+	margin-right:23px;
+}
+.one-forth:last-child {
+	margin-right:0;
+}
+.commerce {
+	text-align:center;
+}
+.commerce img {
+	margin-bottom:50px;
+}
+.commerce h1 {
+	font-family:open-bold;
+	color:#1abc9c;
+	margin-bottom:40px;
+	font-size:22px;
+}
+.commerce p {
+	font-family:open-sans;
+	font-size:14px;
+	color:#a1b1bc;
+	padding-bottom:40px;
+}
+.commerce span {
+	border-top:1px solid #a1b1bc;
+	padding-top:10px;
+}
+.bg-line {
+	border-bottom:1px solid #e6e6e6;
+}
+.design-inner h1.green{
+	color:#66cc99;
+}
+.one-third {
+	width:380px;
+	float:left;
+	margin-right:25px;
+}
+.one-third:last-child {
+	margin-right:0;
+}
+.software ul li  {
+	padding:20px;
+	color:#a32525;
+	border:1px solid #dedede;
+	margin-bottom:20px;
+}
+.software ul li i{
+	vertical-align:middle;
+}
+.software strong {
+	color:#999999;
+	font-size:14px;
+	font-family:open-bold;
+	padding-left:10px;
+}
+.comstar h1 {
+	padding:30px 0;
+	color:white;
+	text-transform:uppercase;
+	font-family:open-light;
+	font-size:30px;
+}
+.more {
+	text-align:center;
+	padding-bottom:90px;
+	font-family:open-sans;
+}
+.more p {
+	font-size:13px;
+	line-height:20px;
+	margin-bottom:40px;
+	color:#acacac;
+}
+.more a {
+	margin:0 auto;
+	border-radius:5px;
+	width:170px;
+	color:#5e5e5e;
+	border:1px solid #5e5e5e;
+	height:50px;
+	display:block;
+	line-height:50px;
+}
+.grade {
+	margin-bottom:30px;
+}
+.grade ul {
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	height:150px;
+}
+
+.grade img {
+    padding-top: 50px;
+}
+.grade ul li{
+	padding-top:1px;
+	display:inline;
+	margin-left:105px;
+	margin-right:105px;
+}
+.mobile img{
+	width:100%;
+	padding-bottom:30px;
+}
+.bella {
+	margin-bottom:30px;
+	padding-bottom:100px;
+	padding-top:50px;
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+}
+.corner img{
+	margin-left:200px;
+	float:left;
+	padding-right:10px;
+}
+.corner strong {
+	color:#a21233;
+	font-family:open-bold;
+}
+.corner p {
+	padding-top:5px;
+}
+.usa {
+	font-family:open-light;
+	text-align:center;
+	background-color:#d34141;
+}
+.usa h1 {
+	padding-top:40px;
+	padding-bottom:35px;
+	font-size:50px;
+	color:white;
+}
+.usa p {
+	display:inline-block;
+	padding-bottom:30px;
+}
+.usa a {
+	width:170px;
+	border:1px solid red;
+	height:50px;
+	border-radius:5px;
+	display:block;
+	float:left;
+	margin-right:10px;
+	line-height:50px;
+	color:white;
+	font-family:open-bold;
+}
+.usa a.fb {
+	background-color:#3c5b9c;
+	border:1px solid #3c5b9c;
+}
+.usa a.tweet {
+	background-color:#55aded;
+	border:1px solid #55aded;
+}
+footer {
+	color:#a1b1bc;
+	font-family:open-sans;
+	height:95px;
+	line-height:95px;
+	font-size:14px;
+	background-color:#222533;
+}
+footer strong {
+	color:#dd3333;
+}
+footer span {
+	float:right;
+}
+footer p i {
+	margin-right:20px;
+}
